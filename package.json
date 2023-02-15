@@ -7,9 +7,10 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "compodoc": "npx compodoc -p tsconfig.doc.json",
-    "compodoc:build-and-serve": "compodoc -p tsconfig.doc.json -s",
-    "compodoc:serve-dev": "compodoc -p tsconfig.doc.json -s -o",
+    "compodoc": "npx compodoc -p tsconfig.doc.json --theme postmark",
+    "compodoc:additional-doc": "npx compodoc -p tsconfig.doc.json --theme postmark --includes ./additional",
+    "compodoc:build-and-serve": "compodoc -p tsconfig.doc.json -s -o  --theme postmark --includes ./additional",
+    "compodoc:serve-dev": "compodoc -p tsconfig.doc.json -s -o --theme postmark --includes ./additional -w",
     "compodoc:serve": "compodoc -s"
   },
   "private": true,

@@ -1,0 +1,16 @@
+[
+  {
+      "title": "A TITLE",
+      "file": "a.md",
+      "children": [
+          {
+              "title": "1 TITLE",
+              "file": "a-folder/1.md"
+          }
+      ]
+  },
+  {
+      "title": "B TITLE",
+      "file": "b.md"
+  }
+]
