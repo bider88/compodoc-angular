@@ -13,6 +13,11 @@ export class LoginComponent implements OnInit {
     email: new FormControl('admin@admin.com', [Validators.email, Validators.required]),
     password: new FormControl('123456', Validators.required)
   });
+  /**
+   * Verify the form fields are valid
+   *
+   * @memberof LoginComponent
+   */
   loginFormInvalid = false;
 
   constructor(

@@ -10,7 +10,7 @@
     "compodoc": "npx compodoc -p tsconfig.doc.json --theme postmark",
     "compodoc:additional-doc": "npx compodoc -p tsconfig.doc.json --theme postmark --includes ./additional",
     "compodoc:build-and-serve": "compodoc -p tsconfig.doc.json -s -o  --theme postmark --includes ./additional",
-    "compodoc:serve-dev": "compodoc -p tsconfig.doc.json -s -o --theme postmark --includes ./additional -w",
+    "compodoc:serve-dev": "compodoc -p tsconfig.doc.json -s -o --theme postmark -w",
     "compodoc:serve": "compodoc -s"
   },
   "private": true,
